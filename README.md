@@ -26,6 +26,8 @@ To build the project for production, use the following command:
  ```
  npm run build
 ```
+## Screenshot
+![page review](./public/screenshot.png)
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
