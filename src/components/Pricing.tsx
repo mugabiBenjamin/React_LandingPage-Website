@@ -142,9 +142,9 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div 
               key={plan.name} 
-              className={`pricing-card opacity-0 relative glass-card rounded-2xl overflow-hidden ${
-                plan.popular ? 'border-purple/50 shadow-glow-purple' : 'border-white/35'
-              }`}
+              className={`pricing-card opacity-0 relative glass-card rounded-2xl overflow-hidden 
+                ${plan.popular ? 'border-purple/50 shadow-glow-purple' : 'border-white/35'} 
+                hover:scale-105 transition-transform duration-300 ease-in-out`}
             >
               {plan.popular && (
                 <div className="absolute top-0 right-0 bg-purple text-white/95 text-xs font-medium py-1 px-3 rounded-bl-lg">
